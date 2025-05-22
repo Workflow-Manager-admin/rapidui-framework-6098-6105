@@ -23,12 +23,6 @@ const DashboardLayout = () => {
       <Sidebar isOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
       
       <div className={`main-content ${sidebarOpen ? 'with-sidebar' : ''}`}>
-        <div className="toggle-sidebar-btn-container">
-          <button className="toggle-sidebar-btn" onClick={toggleSidebar}>
-            {sidebarOpen ? '◀' : '▶'}
-          </button>
-        </div>
-        
         <div className="content-container">
           <Outlet />
         </div>
