@@ -1,19 +1,24 @@
 :root {
   --kavia-orange: #E87A41;
   --kavia-dark: #1A1A1A;
-  --text-color: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --border-color: rgba(255, 255, 255, 0.1);
-  --success-color: #2ecc71;
-  --warning-color: #f39c12;
-  --error-color: #e74c3c;
-  --info-color: #3498db;
+  --kavia-light: #f8f9fa;
+  --background-color: #ffffff;
+  --text-color: #333333;
+  --text-secondary: rgba(51, 51, 51, 0.7);
+  --border-color: rgba(0, 0, 0, 0.1);
+  --card-background: #f8f9fa;
+  --success-color: #28a745;
+  --warning-color: #ffc107;
+  --error-color: #dc3545;
+  --info-color: #17a2b8;
+  --shadow-color: rgba(0, 0, 0, 0.05);
+  --hover-background: rgba(0, 0, 0, 0.05);
 }
 
 body {
   margin: 0;
   font-family: 'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  background-color: var(--kavia-dark);
+  background-color: var(--background-color);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
