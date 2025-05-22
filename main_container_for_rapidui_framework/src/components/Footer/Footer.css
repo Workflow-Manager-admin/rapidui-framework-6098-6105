@@ -51,6 +51,74 @@
   color: var(--kavia-orange);
 }
 
+.social-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: rgba(232, 122, 65, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--kavia-orange);
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.social-icon:hover {
+  background-color: var(--kavia-orange);
+  color: white;
+}
+
+.newsletter-form {
+  margin-top: 16px;
+}
+
+.newsletter-form p {
+  margin-bottom: 12px;
+}
+
+.form-input-group {
+  display: flex;
+  gap: 8px;
+}
+
+.footer-input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-size: 0.9rem;
+}
+
+.footer-input:focus {
+  outline: none;
+  border-color: var(--kavia-orange);
+}
+
+.footer-btn {
+  background-color: var(--kavia-orange);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.footer-btn:hover {
+  background-color: #d96a32;
+}
+
 .rapidui-footer-bottom {
   padding-top: 24px;
   border-top: 1px solid var(--border-color);
