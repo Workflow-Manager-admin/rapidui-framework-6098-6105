@@ -1,0 +1,63 @@
+.rapidui-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: 64px; /* Header height */
+  transition: margin-left 0.3s ease;
+}
+
+.main-content.with-sidebar {
+  margin-left: 250px; /* Sidebar width */
+}
+
+.content-container {
+  flex: 1;
+  padding: 24px;
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.toggle-sidebar-btn-container {
+  position: fixed;
+  top: 72px;
+  left: 0;
+  z-index: 99;
+}
+
+.toggle-sidebar-btn {
+  background-color: var(--kavia-orange);
+  border: none;
+  color: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .main-content.with-sidebar {
+    margin-left: 0;
+  }
+  
+  .toggle-sidebar-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-container {
+    padding: 16px;
+  }
+}
