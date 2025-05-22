@@ -49,12 +49,15 @@
 .nav-link {
   color: var(--text-secondary);
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: all 0.2s ease;
   font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 4px;
 }
 
 .nav-link:hover, .nav-link.active {
-  color: var(--text-color);
+  color: var(--kavia-orange);
+  background-color: var(--hover-background);
 }
 
 .rapidui-header-actions {
