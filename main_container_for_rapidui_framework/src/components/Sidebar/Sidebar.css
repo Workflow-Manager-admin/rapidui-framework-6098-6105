@@ -109,6 +109,27 @@
   color: var(--text-secondary);
 }
 
+/* Persistent sidebar toggle */
+.sidebar-toggle-fixed {
+  position: fixed;
+  top: 72px;
+  left: 0;
+  z-index: 99;
+  background-color: var(--kavia-orange);
+  color: white;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  box-shadow: 2px 0 4px var(--shadow-color);
+  transition: all 0.3s ease;
+}
+
 /* Responsive styles */
 @media (max-width: 992px) {
   .rapidui-sidebar {
