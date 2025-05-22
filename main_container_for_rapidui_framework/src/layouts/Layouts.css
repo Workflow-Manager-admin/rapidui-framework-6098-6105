@@ -43,6 +43,7 @@
   align-items: center;
   justify-content: center;
   font-size: 12px;
+  box-shadow: 2px 0 4px var(--shadow-color);
 }
 
 /* Responsive styles */
